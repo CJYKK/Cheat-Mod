@@ -1,0 +1,12 @@
+{
+  "_fv": 18,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD1",
+    "keyBindingName": "Give 64 Diamond Blocks",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "Give64DiamondBlocksUse"
+    }
+  }
+}

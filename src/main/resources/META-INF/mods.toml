@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Public Domain"
+
+[[mods]]
+modId="cheat_mod"
+version="0.0.1"
+displayName="Cheat Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="http://mods.kangkang888.com"
+authors="CJYKK"
+description='''
+A simple cheat mod. Don't install it on any server!
+'''
+
+[[dependencies.cheat_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

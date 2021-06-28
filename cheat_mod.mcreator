@@ -1,0 +1,65 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Give64DiamondBlocks",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "give_64_diamond_blocks"
+    },
+    {
+      "name": "Give64DiamondBlocksUse",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "give_64_diamond_blocks_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "key.cheat_mod.give_64_diamond_blocks": "Give 64 Diamond Blocks"
+    },
+    "zh_cn": {
+      "key.cheat_mod.give_64_diamond_blocks": "¸øÄã64¸ö×êÊ¯¿é"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cheat_mod",
+    "modName": "Cheat Mod",
+    "version": "0.0.1",
+    "description": "A simple cheat mod. Don\u0027t install it on any server!",
+    "author": "CJYKK",
+    "websiteURL": "http://mods.kangkang888.com",
+    "license": "Public Domain",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.cjykk.cheatmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
